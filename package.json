@@ -4,7 +4,9 @@
   "description": "Node.js authentication using JWT",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon --exec babel-node index.js",
+    "build": "babel server --out-dir dist",
+    "serve": "node dist/app.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +18,20 @@
   "bugs": {
     "url": "https://github.com/kirannbhatt/auth-jwt/issues"
   },
-  "homepage": "https://github.com/kirannbhatt/auth-jwt#readme"
+  "homepage": "https://github.com/kirannbhatt/auth-jwt#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.1.0",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.3.0",
+    "morgan": "^1.9.1",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "@babel/node": "^7.0.0",
+    "@babel/preset-env": "^7.1.0",
+    "nodemon": "^1.18.4"
+  }
 }
