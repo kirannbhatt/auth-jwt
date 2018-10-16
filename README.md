@@ -12,7 +12,7 @@ Node.js authentication using JWT
     
     `git clone https://github.com/kirannbhatt/auth-jwt.git`
 
-   #####Go to root of the directory:
+   ##### Go to root of the directory:
       `cd auth-jwt`
 
    ##### Install project dependencies:
