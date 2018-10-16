@@ -4,7 +4,7 @@ Node.js authentication using JWT
 ## Getting Started
   ### Prerequisites 
     - Node
-    - MongoDB
+    - MySQL
   
   ### Installation
   
